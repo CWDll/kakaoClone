@@ -1,0 +1,64 @@
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+span {
+    font-weight: bold;
+}
+
+/* .rightIcon {
+    margin:0;
+    padding: 0;
+} */
+.inputBox {
+	border:none;
+    border-bottom: gray solid 1px;
+    width: 100%;
+    height: 50px;
+}
+
+.welcome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.guide {
+    text-align: center;
+    color: grey;
+}
+
+.inputSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+.submitBtn {
+    width: 100%;
+    height: 50px;
+    border:none;
+    background-color: gold;
+    margin-top: 30px;
+}
+
+.footerMsg {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 10px;
+}
+
+.kakaoLoad {
+    width: 100%;
+    height: 100%;
+}
+
+.imgbody {
+    width: 100%;
+    height: 750px;
+    margin: 0;
+}
