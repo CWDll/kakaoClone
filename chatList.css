@@ -113,12 +113,19 @@ span {
     margin-top: 20px;
 }
 
+.chatList {
+    height:550px;
+    width: 100%;
+    /* background-color: red; */
+}
+
 .friendsProfile {
     display: inline-flex;
     text-align: center;
     justify-content: space-between;
-    border-bottom: gray solid 1px;
-    height: 540px;
+    /* border-bottom: gray solid 1px; */
+    height: 75px;
+    background-color:bisque;
     /* background-color: beige; */
     width: 100%;
 }
@@ -215,8 +222,6 @@ footer {
 .mdiv {
     position: relative;
     margin-bottom: 25px;
-    
-
 }
 
 .chatdiv1 {
