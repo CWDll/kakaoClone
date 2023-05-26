@@ -1,0 +1,236 @@
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+span {
+    font-weight: bold;
+}
+
+.rightIcon {
+    margin:0;
+    padding: 0;
+}
+.inputBox {
+	border:none;
+    border-bottom: gray solid 1px;
+    width: 100%;
+    height: 50px;
+}
+
+.welcome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.guide {
+    text-align: center;
+    color: grey;
+}
+
+.inputSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+.submitBtn {
+    width: 100%;
+    height: 50px;
+    border:none;
+    background-color: gold;
+    margin-top: 30px;
+}
+
+.footerMsg {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 10px;
+}
+
+.kakaoLoad {
+    width: 100%;
+    height: 100%;
+}
+
+.imgbody {
+    width: 100%;
+    height: 100%;
+}
+
+.div2 {
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+}
+
+.div2 i {
+    margin-top: 25px;
+}
+
+.profile {
+    width: 100px;
+    height: 100px;
+    border-radius: 40%;
+}
+
+.friendsImg {
+    width: 60px;
+    height: 60px;
+    border-radius: 40%;
+    margin: 5px;
+    margin-left: 20px;
+}
+
+.upperBar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.upperBar i {
+    display: flex;
+    float: right;
+    font-size: 30px;
+    justify-content: flex-end;
+}
+
+.upperBarIcon i{
+    margin-right: 20px;
+    margin-top: 10px;
+    padding-top: 10px;
+
+}
+
+.myProfile {
+    display: flex;
+    text-align: center;
+    border-bottom: gray solid 1px;
+    height: 130px;
+    margin-top: 20px;
+}
+
+.friendsProfile {
+    display: inline-flex;
+    text-align: center;
+    justify-content: space-between;
+    border-bottom: gray solid 1px;
+    height: 540px;
+    /* background-color: beige; */
+    width: 100%;
+}
+
+.friendsProfile p {
+    font-size: 20px;
+}
+
+.friendsInfo {
+    display: flex;
+    text-align: center;
+    /* height: 130px; */
+    /* margin-top: 10px; */
+}
+
+.friendsInfo p {
+    font-weight: bold;
+    height: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.messages {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 5px 10px;
+}
+
+.messages span{
+    font-size: 12px;
+    margin-top: 10px;
+    
+}
+
+
+.friendmore {
+    display: flex;
+    float: right;
+    font-size: 10px;
+    flex-direction: column;
+}
+
+.friendmore p{
+    font-size: 15px;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-bottom: 0;
+
+}
+
+.friendmore i {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-right: 10px;
+    color: red;
+}
+
+footer {
+    background-color: lightgray;
+    height: 70px;
+    font-size: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.footerIcon{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px 20px;
+    font-size: 25px;
+    width: 70px;
+}
+
+.myName {
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+.div4 {
+    margin-top: 10px;
+    display: flex;
+    justify-content:space-between;
+    font-size: 20px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    
+}
+
+.div4 i {
+    margin-top: 10px;
+}
+
+.mdiv {
+    position: relative;
+    margin-bottom: 25px;
+    
+
+}
+
+.chatdiv1 {
+    position:absolute;
+    /* border: 1px solid red; */
+    font-size: 25px;
+}
+.chatdiv2 {
+    /* display: flex;
+    justify-content: flex-end; */
+    position:absolute;
+    /* border: 1px solid blue; */
+    margin-left: 20px;
+    font-size: 15px;
+    float: right;
+    color: red;
+}

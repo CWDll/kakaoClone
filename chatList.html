@@ -10,13 +10,13 @@
     <img src="testImg.jfif"> -->
 
     <script src="https://kit.fontawesome.com/37e40049c6.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="friends.css">
-    <title>kakaoTalk Clone</title>
+    <link rel="stylesheet" href="chatList.css">
+    <title>chatList</title>
 </head>
 <bod>
     <header class="stateBar">
         <div>
-            <span class="">SKT</span> 
+            <span class="">이상돈 제국</span> 
             <i class="fas fa-wifi"></i>
         </div>
         
@@ -29,40 +29,30 @@
             <i class="fas fa-bolt"></i>
         </div>
     </header>
+
     <section>
         <div class="upperBar">
-            <h1>Friends</h1>
+            <h1>Chats</h1>
             <div class="upperBarIcon">
-                <i class="fas fa-search"></i>
-                <i class="fas fa-music"></i>
                 <i class="fas fa-cog"></i>
+                <i class="fas fa-music"></i>
+                <i class="far fa-comment-dots"></i>
+                <i class="fas fa-search"></i>
             </div>
-        </div>
-
-        <div class="div2">
-            <i class="fas fa-info-circle"></i>
-            <h3>Fridnes Names Display</h3>
-            <i class="fas fa-chevron-right"></i>
-        </div>
-
-        <div class="myProfile">
-            <img src="./images/myprofile.jpg" alt="프로필사진" class="profile">
-            <h2 class="myName">Lee</h2>
-        </div>
-
-        <div class="div4">
-            Channel
-            <i class="fas fa-chevron-up"></i>
         </div>
 
         <div class="friendsProfile">
             <div class="friendsInfo">
                 <img src="./images/loading.png" alt="친구들 사진" class="friendsImg">
-                <p>Channel</p>
+                <div class="messages">
+                    <p>KaKao</p>
+                    <span>Please check My KaKao <br>
+                        Account info</span>
+                </div>
             </div>
             <div class="friendmore">
-                <p>2</p>
-                <i class="fas fa-chevron-right"></i>
+                <p>21:22</p>
+                <i class="fas fa-exclamation-circle"></i>
             </div>
         </div>
 
@@ -72,7 +62,14 @@
             <i class="fas fa-user"></i>
         </button>
         <button type="button" class="footerIcon" onClick="location.href='chatList.html'">
-            <i class="far fa-comment"></i>
+            <div class="mdiv">
+                <div class="chatdiv1">
+                    <i class="far fa-comment"></i>
+                </div>
+                <div  class="chatdiv2">
+                    <i class="fas fa-exclamation-circle"></i>
+                </div>
+            </div>            
         </button>
         <button type="button" class="footerIcon" onClick="location.href='finds.html'">
             <i class="fas fa-search"></i>

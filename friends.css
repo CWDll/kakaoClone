@@ -165,7 +165,7 @@ footer {
     display: flex;
     justify-content: space-between;
 }
-footer i{
+.footerIcon{
     margin-top: 10px;
     margin-left: 10px;
     margin-right: 10px;
