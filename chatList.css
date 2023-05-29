@@ -114,7 +114,7 @@ span {
 }
 
 .chatList {
-    height:550px;
+    height:523px;
     width: 100%;
     /* background-color: red; */
 }
@@ -125,8 +125,7 @@ span {
     justify-content: space-between;
     /* border-bottom: gray solid 1px; */
     height: 75px;
-    background-color:bisque;
-    /* background-color: beige; */
+    /* background-color:bisque; */
     width: 100%;
 }
 
@@ -190,6 +189,9 @@ footer {
     font-size: 40px;
     display: flex;
     justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    width: 100%;
 }
 .footerIcon{
     margin-top: 10px;

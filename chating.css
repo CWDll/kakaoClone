@@ -1,0 +1,146 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-color:  #B2C7DA;
+    height: 98%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+span {
+    font-weight: bold;
+}
+
+.upperBar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.upperBar i {
+    display: flex;
+    float: right;
+    font-size: 30px;
+    justify-content: flex-end;
+    margin-right: 20px;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+.upperBar h1{
+    text-align: center;
+}
+
+.chatDayDiv {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.chatStartDay {
+    background-color:gray;
+    padding: 10px;
+    border-radius: 50px;
+    color:white;
+    font-weight: 300;
+}
+
+.friendsImg {
+    width: 60px;
+    height: 60px;
+    border-radius: 40%;
+    margin: 5px;
+    margin-left: 20px;
+}
+
+.friendChat {
+    display: flex;
+    flex-direction: row;
+    height: 90px;
+}
+
+.chatTime {
+    display: flex;
+    flex-direction: column;
+    flex-direction: column-reverse;
+}
+
+.Message {
+    display: flex;
+    flex-direction: column;
+}
+
+.Message div {
+    background-color: white;
+    padding: 10px;
+    border-top-right-radius: 10px ;
+    border-bottom-left-radius:10px ;
+    border-bottom-right-radius:10px ;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+ }
+ 
+.myChat {
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+.myChat div {
+    background-color: yellow;
+    /* background-color: white; */
+    padding: 10px;
+    margin: 5px;
+    border-top-left-radius: 10px ;
+    border-bottom-left-radius:10px ;
+    border-bottom-right-radius:10px ;
+}
+
+.chatBody {
+    height: 500px;
+}
+
+footer {
+    background-color: white;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position : fixed;
+bottom : 0;
+}
+.fa-plus-square {
+    font-size: 30px;
+    text-align: center;
+    padding: 12px 12px;
+    color: grey;
+}
+
+.textmsg {
+    width: 100%;
+    border-radius: 20px;
+    height: 50%;
+}
+
+.fa-arrow-circle-up {
+    color:yellow;
+    border-radius: 20px;
+    font-size: 30px;
+    /* background-color: black; */
+    background-size: 0;
+    padding-right: 10px;
+}
+
+.far {
+    font-size: 20px;
+    padding: 0 5px;
+    padding-left: 10px;
+}

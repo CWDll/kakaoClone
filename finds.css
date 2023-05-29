@@ -1,0 +1,87 @@
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+span {
+    font-weight: bold;
+}
+
+.upperBar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.upperBar i {
+    display: flex;
+    float: right;
+    font-size: 30px;
+    justify-content: flex-end;
+    margin-right: 20px;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+.upperBar h1{
+    text-align: center;
+}
+
+.options {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    border-bottom: 2px solid #eee;
+    width: 100%;
+}
+
+.options i {
+    font-size: 40px;
+}
+
+.recommendedFriends {
+    height: 200px;
+    color: gray;
+    /* border-bottom: 2px solid red; */
+}
+
+
+.recommendedFriends >span{
+    height: 100%;
+    text-align: center;
+    color: gray;
+    display : flex;
+  justify-content : center;
+  align-items : center;
+  border-bottom: 2px solid blue;
+}
+
+.openChat {
+    margin-top: 70px;
+}
+
+.openChatTitle {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.hashtag {
+    display: block;
+    flex-direction: column;
+    justify-content:center;
+}
+
+p{
+    margin:0;
+}

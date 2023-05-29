@@ -4,9 +4,74 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0">
-    <title>chating</title>
+    <!-- B2C7DA가 채팅방 전체 배경색임 -->
+    <script src="https://kit.fontawesome.com/37e40049c6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="chating.css">
+    <title>chatList</title>
 </head>
 <body>
-    <h1>chating</h1>
+    <!-- 최상단 상태바 -->
+    <header class="stateBar">
+        <div>
+            <span class="">SKT</span> 
+            <i class="fas fa-wifi"></i>
+        </div>
+        
+        <div>
+            <span>18:43</span>
+        </div>
+        <div class="rightIcon">
+            <span>100%</span>
+            <i class="fas fa-battery-full"></i>
+            <i class="fas fa-bolt"></i>
+        </div>
+    </header>
+
+    <!-- 채팅방 이름, 뒤로가기 버튼 있는 상단 바 -->
+    <section>
+        <div class="upperBar">
+            <i class="fas fa-chevron-left" onClick="location.href='chatList.html'"></i>
+            <h1>KaKao</h1>
+            <div class="upperBarIcon">         
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-search"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- 채팅방 몸통. 전송버튼 있는 부분 전까지 모두 포함. -->
+    <setcion class="chatBody">
+        <div class="chatDayDiv">
+            <span class="chatStartDay">
+                Tuesday, May 26, 2023
+            </span>
+        </div>
+        <div class="friendChat">
+            <img src="./images/loading.png" alt="친구들 사진" class="friendsImg">
+            <div class="Message">
+                <p>
+                    KaKao
+                </p>
+                <div>
+                    Please Check My KAKAO<br>
+                    Account Info
+                </div>
+            </div>
+            <p class="chatTime">21:27</p>
+        </div>
+        <div class="myChat">
+            <div>
+                No!!
+            </div>
+            <p class="chatTime">21:28</p>
+        </div>
+        
+    </setcion>
+    <footer>
+        <i class="far fa-plus-square"></i>
+        <input class="textmsg"type="text" placeholder="Wirte a Message..."/>
+        <i class="far fa-smile chatsumbitBtn"></i>
+        <i class="fas fa-arrow-circle-up" onClick="location.href='chating.html'"></i>
+    </footer>
 </body>
 </html>
