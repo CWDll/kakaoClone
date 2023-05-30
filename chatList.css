@@ -193,6 +193,7 @@ footer {
     padding: 0;
     width: 100%;
 }
+
 .footerIcon{
     margin-top: 10px;
     margin-left: 10px;
@@ -200,6 +201,8 @@ footer {
     padding: 5px 20px;
     font-size: 25px;
     width: 70px;
+    background-color: lightgray;
+    border: 0;
 }
 
 .myName {

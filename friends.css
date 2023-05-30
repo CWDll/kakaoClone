@@ -118,7 +118,7 @@ span {
     text-align: center;
     justify-content: space-between;
     border-bottom: gray solid 1px;
-    height: 280px;
+    height: 250px;
     /* background-color: beige; */
     width: 100%;
 }
@@ -170,6 +170,10 @@ footer {
     margin-left: 10px;
     margin-right: 10px;
     padding: 5px 20px;
+    font-size: 25px;
+    width: 70px;
+    background-color: lightgray;
+    border: 0;
 }
 
 .myName {
@@ -184,7 +188,6 @@ footer {
     font-size: 20px;
     margin-bottom: 30px;
     margin-left: 10px;
-    
 }
 
 .div4 i {

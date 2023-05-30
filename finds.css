@@ -63,7 +63,7 @@ span {
     display : flex;
   justify-content : center;
   align-items : center;
-  border-bottom: 2px solid blue;
+  border-bottom: 2px solid gray;
 }
 
 .openChat {
@@ -74,14 +74,56 @@ span {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
+    margin-top: -30px;
+    padding-top: 0;
+    padding-bottom: 30px;
+}
+
+.openChatTitle p {
+    color: gray !important;
 }
 
 .hashtag {
-    display: block;
-    flex-direction: column;
-    justify-content:center;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+
+.hashtag div p span {
+    color: deeppink;
 }
 
 p{
     margin:0;
+}
+
+.myProfile {
+    display: flex;
+    text-align: center; 
+    height: 130px;
+    width: 130px;
+}
+
+.profile {
+    width: 100px;
+    height: 100px;
+    border-radius: 20%;
+}
+
+footer {
+    background-color: lightgray;
+    height: 70px;
+    font-size: 40px;
+    display: flex;
+    justify-content: space-between;    
+}
+.footerIcon{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px 20px;
+    font-size: 25px;
+    width: 70px;
+    background-color: lightgray;
+    border: 0;
 }

@@ -4,9 +4,110 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0">
-    <title>more page</title>
+    <script src="https://kit.fontawesome.com/37e40049c6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="more.css">
+    <title>More</title>
 </head>
 <body>
-    <h1>more page</h1>
+    <header>
+        <div>
+            <span class="">SKT</span> 
+            <i class="fas fa-wifi"></i>
+        </div>
+        
+        <div>
+            <span>18:43</span>
+        </div>
+        <div class="rightIcon">
+            <span>100%</span>
+            <i class="fas fa-battery-full"></i>
+            <i class="fas fa-bolt"></i>
+        </div>
+    </header>
+
+    <section>
+        <div class="upperBar">
+            <h1>More</h1>
+            <div class="upperBarIcon">
+                <i class="fas fa-cog"></i>
+                <i class="fas fa-search"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- 사진, 이름, 연락처 들어있는 section -->
+    <section class="profileSection">
+        <div class="myprofilesection">
+
+        
+            <div class="myProfile">
+                <img src="./images/myprofile.jpg" alt="프로필사진" class="profile">
+            </div>
+            <div clsas="description">
+                <span>Lee</span>
+                <div class="pnumber">
+                    <p>01099629701</p>
+                    <i class="fas fa-exclamation-circle"></i>
+                </div>
+            </div>
+        </div>
+        <i class="fa-regular fa-message"></i>
+    </section>
+
+    <!-- QR, 연락처 등 버튼 4개 있는 section -->
+    <section class="options">
+        <div>
+            <i class="fa-sharp fa-regular fa-calendar"></i>
+            <p>Calendar</p>
+        </div>
+        <div>
+            <i class="fa-regular fa-face-smile-wink"></i>
+            <p>Emoticons</p>
+        </div>
+        <div>
+            <i class="fa-solid fa-paint-roller"></i>
+            <p>Theme</p>
+        </div>
+        <div>
+            <i class="far fa-envelope"></i>
+            <p>Account</p>
+        </div>
+    </section>
+
+    <!-- Suggestion 있는 section -->
+    <section class="suggestions">
+        <p>Suggestions</p>
+        <div class="KaKaoStory">
+            <div>
+                <i class="fa-sharp fa-solid fa-quote-right"></i>
+                <p>KaKao Story</p>
+            </div>
+            <div>
+                <i class="fa-sharp fa-solid fa-quote-right"></i>
+                <p>KaKao Story</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <button type="button" class="footerIcon" onClick="location.href='friends.html'">
+            <i class="fas fa-user"></i>
+        </button>
+        <button type="button" class="footerIcon" onClick="location.href='chatList.html'">
+            <div class="mdiv">
+                <div class="chatdiv1">
+                    <i class="far fa-comment"></i>
+                </div>
+                <div  class="chatdiv2">
+                    <i class="fas fa-exclamation-circle"></i>
+                </div>
+            </div>            
+        </button>
+        <button type="button" class="footerIcon" onClick="location.href='finds.html'">
+            <i class="fas fa-search"></i>
+        </button>
+        <button type="button" class="footerIcon" onClick="location.href='more.html'">
+            <i class="fas fa-ellipsis-h"></i>
+        </button>
+    </footer>
 </body>
 </html>
